@@ -5,8 +5,6 @@ import argparse as ap
 from string import ascii_uppercase
 from mdtraj.formats import PDBTrajectoryFile
 
-# Methods
-
 # Set up parser
 parser = ap.ArgumentParser(description='Rename HIS to HIE, HID, or HIP depending on protonation state')
 parser.add_argument('pdb', type=str, nargs=1, help='full path to PDB file')
